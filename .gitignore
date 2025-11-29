@@ -1,5 +1,26 @@
-﻿*
-!.gitignore
-!README.md
-!app_clima_decorado.py
-!requirements.txt
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# PyInstaller
+dist/
+build/
+*.spec
+*.log
+
+# Datos
+data/cache/*
+data/logs/*.log
+
+# Assets temporales
+assets/*.tmp
+
+# Sistema
+.DS_Store
+Thumbs.db

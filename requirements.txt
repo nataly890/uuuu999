@@ -1,2 +1,37 @@
+﻿# 🌍 Clima Global Pro
+
+## Estructura del Proyectto
+
+\\\
+CLIMA56/
+├── 📁 src/                 # Código fuente principal
+│   ├── 🐍 app_clima_decorado.py
+│   ├── 📁 components/     # Componentes de UI
+│   └── 📁 utils/          # Utilidades y helpers
+├── 📁 docs/               # Documentación
+│   ├── 📁 manual/         # Manual de usuario
+│   └── 📁 api/            # Documentación API
+├── 📁 tests/              # Pruebas automatizadas
+│   ├── 📁 unit/           # Pruebas unitarias
+│   └── 📁 integration/    # Pruebas de integración
+├── 📁 dist/               # Distribuibles
+│   ├── 📁 windows/        # Ejecutables Windows
+│   └── 📁 linux/          # Ejecutables Linux
+├── 📁 assets/             # Recursos multimedia
+│   ├── 📁 icons/          # Iconos de la aplicación
+│   ├── 📁 images/         # Imágenes
+│   └── 📁 fonts/          # Fuentes tipográficas
+├── 📁 data/               # Datos y almacenamiento
+│   ├── 📁 cache/          # Caché temporal
+│   └── 📁 logs/           # Archivos de registro
+├── 📁 config/             # Configuraciones
+├── 📁 scripts/            # Scripts de automatización
+└── 📁 environment/        # Configuración de entornos
+\\\
+"@ | Set-Content -Path "README.md" -Encoding UTF8
+
+# requirements.txt en raíz
+@"
 flet>=0.10.0
 requests>=2.31.0
+python-dotenv>=1.0.0
