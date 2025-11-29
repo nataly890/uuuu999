@@ -1,0 +1,5 @@
+﻿*
+!.gitignore
+!README.md
+!app_clima_decorado.py
+!requirements.txt
