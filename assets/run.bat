@@ -1,10 +1,8 @@
 @echo off
 echo ===============================
-echo    CLIMA GLOBAL PRO
+echo    CLIMA GLOBAL PRO - MVC
 echo ===============================
 echo.
-cd src
-python app_clima_decorado.py
-cd ..
+python app.py
 echo.
 pause
